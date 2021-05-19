@@ -1,0 +1,81 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  background-color: #6bbcbe;
+  width: 500px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dotsContainer,
+.squaresContainer {
+  display: flex;
+  margin: 30px;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  background-color: white;
+  border-radius: 50px;
+  margin: 7px;
+}
+
+@keyframes turningDots {
+  0% {
+  }
+  70% {
+    transform: rotateZ(180deg);
+  }
+  100% {
+    transform: rotateZ(180deg);
+  }
+}
+
+.dotsContainer {
+  animation: turningDots 1s ease infinite;
+}
+
+@keyframes toBeLong {
+  0% {
+  }
+  20% {
+    transform: scaleY(2);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.square {
+  width: 7px;
+  height: 30px;
+  background-color: white;
+  margin: 2px;
+  animation: toBeLong 1s ease infinite;
+}
+
+.square:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.square:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.square:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.square:nth-child(5) {
+  animation-delay: 0.4s;
+}
