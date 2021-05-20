@@ -100,6 +100,7 @@ main {
   width: 70px;
   height: 105px;
   margin: 20px 25px 15px 0px;
+  border-radius: 5px;
 }
 
 .authors__title {
@@ -115,6 +116,7 @@ main {
 .author__profile__photo img {
   width: 105px;
   height: 130px;
+  border-radius: 5px;
 }
 
 .author__profile__info {
