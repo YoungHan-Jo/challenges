@@ -1,0 +1,15 @@
+.stars {
+  display: flex;
+}
+.star {
+  margin-right: 5px;
+}
+.star-sm {
+  font-size: 0.5rem;
+}
+.yellow {
+  color: #ecb667;
+}
+.gray {
+  color: rgba(173, 173, 173, 0.2);
+}
