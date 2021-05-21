@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>You Are Awesome!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="screen-playList">
+      <div class="header">
+        <i class="fas fa-arrow-left"></i>
+        <i class="fas fa-search"></i>
+      </div>
+      <div class="screen-playList__singer">
+        <div class="screen-playList__singer--photo">
+          <img src="img/iu.jpg" alt="" />
+        </div>
+        <div class="screen-playList__singer--name">IU</div>
+        <div class="screen-playList__singer--genre">Ballad, Acoustic</div>
+        <div class="screen-playList__singer--btn">
+          <div>shuffle</div>
+          <div><i class="fas fa-heart fa"></i><span>212971</span></div>
+        </div>
+      </div>
+      <div class="screen-playList__list">
+        <div class="screen-playList__list__music">
+          <div class="screen-playList__list__music--main">
+            <img src="img/cover1.jpg" alt="" />
+            <div>
+              <span>IU</span>
+              <span>LILAC</span>
+            </div>
+          </div>
+          <div><i class="fas fa-ellipsis-v fa-sm"></i></div>
+        </div>
+        <div class="screen-playList__list__music selected">
+          <div class="screen-playList__list__music--main">
+            <img src="img/cover2.jpg" alt="" />
+            <div>
+              <span>IU</span>
+              <span>Palette</span>
+            </div>
+          </div>
+          <div><i class="fas fa-ellipsis-v fa-sm"></i></div>
+        </div>
+        <div class="screen-playList__list__music">
+          <div class="screen-playList__list__music--main">
+            <img src="img/cover3.jpg" alt="" />
+            <div>
+              <span>IU</span>
+              <span>Celebrity</span>
+            </div>
+          </div>
+          <div><i class="fas fa-ellipsis-v fa-sm"></i></div>
+        </div>
+        <div class="screen-playList__list__music">
+          <div class="screen-playList__list__music--main">
+            <img src="img/cover4.jpg" alt="" />
+            <div>
+              <span>IU</span>
+              <span>blueming</span>
+            </div>
+          </div>
+          <div><i class="fas fa-ellipsis-v fa-sm"></i></div>
+        </div>
+      </div>
+      <div class="screen-playList__tool">
+        <div class="screen-playList__tool__title">
+          <span>IU</span>
+          <span>Palette</span>
+        </div>
+        <div class="screen-playList__tool__btns">
+          <div><i class="fas fa-step-backward fa-xs"></i></div>
+          <div><i class="fas fa-pause fa-xs"></i></div>
+          <div><i class="fas fa-step-forward fa-xs"></i></div>
+        </div>
+      </div>
+    </div>
+    <div class="screen-playing">
+      <div class="header">
+        <i class="fas fa-arrow-left"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+      <div class="screen-playing__content">
+        <div class="screen-playing__content--cover">
+          <img src="img/cover2.jpg" alt="" />
+        </div>
+        <div class="screen-playing__content--title">
+          <span> Palette </span>
+        </div>
+        <div class="screen-playing__content--name">
+          <span>IU</span>
+        </div>
+      </div>
+      <div class="screen-playing__control">
+        <div class="screen-playing__control--time">
+          <span>2:56</span>
+          <span>4:23</span>
+        </div>
+        <div class="screen-playing__control--bar">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="screen-playing__control--btns">
+          <i class="fas fa-sync-alt gray"></i>
+          <i class="fas fa-step-backward"></i>
+          <div class="screen-playing__control--btns__playBtn">
+            <i class="fas fa-play"></i>
+          </div>
+          <i class="fas fa-step-forward"></i>
+          <i class="fas fa-random gray"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
